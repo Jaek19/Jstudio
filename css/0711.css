@@ -301,12 +301,18 @@ main {
   header li nav {
     top: 30px;
   }
+
+  #slide {
+    height: auto;
+  }
+
+  .slideImg {
+    animation: none;
+  }
   .slideImg1 {
     display: none;
+    animation: none;
   }
-  /* #slide {
-    flex-direction: column;
-  } */
 }
 
 @media (max-width: 448px) {

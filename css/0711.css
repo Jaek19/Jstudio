@@ -93,8 +93,8 @@ header li:hover .subMenu {
 }
 
 #slideImgContainer {
+  flex: 1;
   display: inline-block;
-  flex-direction: column-reverse;
   left: 0;
   top: 0;
   width: 100%;
@@ -102,6 +102,7 @@ header li:hover .subMenu {
   align-items: center;
 }
 #slideImgContainer2 {
+  flex: 1;
   display: inline-block;
   top: 0;
   left: 0;
@@ -114,6 +115,16 @@ header li:hover .subMenu {
   width: 100%;
   height: auto;
   animation: upImg 10s 2s linear both infinite alternate;
+}
+
+.slideImg1 {
+  width: 100%;
+  height: auto;
+  animation: upImg 10s 2s linear both infinite alternate;
+}
+
+[alg='2번'] {
+  display: none;
 }
 
 main {
@@ -276,18 +287,6 @@ main {
   }
 }
 
-/* @keyframes slideImg {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-1000px);
-  }
-  100% {
-    transform: translateX(-2000px);
-  }
-} */
-
 @media (max-width: 800px) {
   header {
     flex-direction: column;
@@ -302,6 +301,12 @@ main {
   header li nav {
     top: 30px;
   }
+  .slideImg1 {
+    display: none;
+  }
+  /* #slide {
+    flex-direction: column;
+  } */
 }
 
 @media (max-width: 448px) {

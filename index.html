@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0711 웹사이트</title>
+    <link rel="stylesheet" href="css/0711.css" />
+  </head>
+  <body>
+    <div id="layout">
+      <header>
+        <div id="logoContainer">
+          <img src="images/J로고.JPG" id="logo" alt="로고" />
+        </div>
+        <ul>
+          <li><a href="#" class="mainMenu">about</a></li>
+          <li>
+            <a href="#" class="mainMenu">사진</a>
+            <nav>
+              <a href="#" class="subMenu">가족사진</a>
+              <a href="#" class="subMenu">증명사진</a>
+              <a href="#" class="subMenu">여권사진</a>
+              <a href="#" class="subMenu">컨셉사진</a>
+            </nav>
+          </li>
+          <li>
+            <a href="#" class="mainMenu">커뮤니티</a>
+            <nav>
+              <a href="#" class="subMenu">공지사항</a>
+              <a href="#" class="subMenu">SNS</a>
+              <a href="#" class="subMenu">Q&A</a>
+              <a href="#" class="subMenu">의상대여</a>
+            </nav>
+          </li>
+        </ul>
+      </header>
+      <section id="slide">
+        <div id="slideImgContainer">
+          <img src="images/family1.jpg" alt="1번" class="slideImg" />
+          <img src="images/family2.jpg" alt="2번" class="slideImg" />
+          <img src="images/family3.jpg" alt="3번" class="slideImg" />
+          <img src="images/family4.jpg" alt="4번" class="slideImg" />
+        </div>
+        <div id="slideImgContainer2">
+          <img src="images/snap1.jpg" alt="5번" class="slideImg" />
+          <img src="images/snap2.jpg" alt="6번" class="slideImg" />
+          <img src="images/snap3.jpg" alt="7번" class="slideImg" />
+          <img src="images/snap4.jpg" alt="8번" class="slideImg" />
+        </div>
+      </section>
+      <main>
+        <section id="notice">
+          <a href="#"> <h2>review</h2></a>
+          <hr />
+          <ul>
+            <li><a href="#">인생사진 맛집!</a> <span>2024-07-10</span></li>
+            <li><a href="#">내돈내산 리뷰</a> <span>2024-07-08</span></li>
+            <li>
+              <a href="#">사장님 정말 친절하세요</a><span>2024-07-05</span>
+            </li>
+            <li><a href="#">배려 감사합니다!!</a> <span>2024-07-04</span></li>
+            <li>
+              <a href="#">주차장이 넓어서 좋아요~</a> <span>2024-07-01</span>
+            </li>
+            <li>
+              <a href="#">인생샷 감사합니다!!!</a>
+              <span>2024-06-27</span>
+            </li>
+          </ul>
+        </section>
+        <section id="partner">
+          <a href="#"><h2>Brief</h2></a>
+          <hr />
+          <div id="partnerContainer">
+            <img src="images/partner.jpg" alt="파트너" />
+          </div>
+          <section id="partner2">
+            <div id="result">
+              <h4>J Studio<br /></h4>
+            </div>
+            <div id="listT">
+              <ol>
+                <li>의상대여 시스템</li>
+                <li>리뷰 이벤트</li>
+                <li>애견동반 가능</li>
+              </ol>
+            </div>
+          </section>
+        </section>
+        <section id="board">
+          <br />
+          <div id="btnContainer">
+            <button
+              type="button"
+              class="btn"
+              id="date"
+              onclick="alert('예약하기')"
+            >
+              <h4>촬영예약</h4>
+            </button>
+            <button
+              type="button"
+              class="btn"
+              id="search"
+              onclick="alert('내 사진찾기')"
+            >
+              <h4>내 사진찾기</h4>
+            </button>
+            <button
+              type="button"
+              class="btn"
+              id="event"
+              onclick="alert('이벤트')"
+            >
+              <h4>Event</h4>
+            </button>
+            <button
+              type="button"
+              class="btn"
+              id="map"
+              onclick="location.href ='https://maps.app.goo.gl/dS927BTggBrQaeAw7'"
+            >
+              <h4>오시는 길</h4>
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <section id="foot">
+          <ul class="no1">
+            <li>
+              <a href="#"><h3>J Studio</h3></a>
+            </li>
+          </ul>
+          <ul class="no2">
+            <li>안재경</li>
+            <li>
+              <a href="#"
+                >주소: 경기도 안산시 상록구 태마당로 28, 10동(부곡동)</a
+              >
+            </li>
+            <li><a href="#">상호명: J Studio</a></li>
+          </ul>
+          <ul class="no3">
+            <li><a href="tel:031-4830-6883">Tel:010-4830-6883</a></li>
+            <li><a href="tel:031-400-2516">promise20203@naver.com</a></li>
+            <li>
+              <a href="#">Copyright ⓒ 2010 J Studio All Right Reserved.</a>
+            </li>
+            <li>운영시간 09:00 ~ 18:00</li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
